@@ -1,0 +1,65 @@
+.summary-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.summary-controls {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.summary-controls label {
+  font-weight: 500;
+  color: var(--primary-blue-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.summary-controls select {
+  border-radius: 6px;
+  padding: 0.38rem 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #dbeafe;
+  margin-left: 0.4rem;
+  background: #fff;
+  color: var(--primary-blue-dark);
+}
+
+.summary-controls button {
+  background: var(--primary-blue);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.44rem 1.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.17s;
+}
+
+.summary-controls button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.summary-result .loading {
+  color: var(--primary-blue);
+  font-weight: 500;
+}
+
+.summary-result .summary-text {
+  background: #eff6ff;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.08em;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.summary-result .error {
+  color: #b91c1c;
+}
