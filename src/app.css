@@ -1,0 +1,17 @@
+.dashboard-container {
+  display: flex;
+  margin: 2rem auto;
+  max-width: 1200px;
+  min-height: 600px;
+  background: var(--content-bg);
+  border-radius: 18px;
+  box-shadow: 0 2px 24px 0 #2563eb20;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .dashboard-container {
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+}
