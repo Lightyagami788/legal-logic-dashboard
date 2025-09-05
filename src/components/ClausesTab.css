@@ -1,0 +1,51 @@
+.clauses-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.clauses-tab button {
+  background: var(--primary-blue);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.44rem 1.4rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.15s;
+}
+
+.clauses-tab button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.clauses-result .loading {
+  color: var(--primary-blue);
+  font-weight: 500;
+}
+
+.clauses-result .error {
+  color: #b91c1c;
+}
+
+.clauses-result ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0 0 0;
+}
+
+.clauses-result li {
+  margin-bottom: 1.1em;
+  background: #f1f5fd;
+  border-radius: 8px;
+  padding: 0.7em 1em;
+}
+
+.clauses-result pre {
+  margin: 0.2em 0 0 0;
+  white-space: pre-wrap;
+  font-family: inherit;
+}
