@@ -1,0 +1,30 @@
+.doc-viewer {
+  background: #f8fafc;
+  border-radius: 8px;
+  margin-top: 1.2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  box-shadow: 0 0.5px 3px #2563eb10;
+  min-height: 120px;
+}
+
+.doc-viewer-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: var(--primary-blue-dark);
+  margin-bottom: 0.6rem;
+}
+
+.doc-content {
+  overflow-x: auto;
+  color: #1e293b;
+}
+
+.doc-content pre {
+  margin: 0;
+  font-family: 'Roboto Mono', 'Menlo', 'monospace';
+  font-size: 0.96em;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
