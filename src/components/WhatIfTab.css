@@ -1,0 +1,106 @@
+.whatif-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.whatif-inputs {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.whatif-inputs input {
+  flex: 1;
+  padding: 0.44rem 0.7rem;
+  border: 1px solid #dbeafe;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.whatif-inputs button {
+  background: var(--primary-blue);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.44rem 1.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.whatif-hypotheticals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.hypo-chip {
+  background: #e0e7ff;
+  border-radius: 14px;
+  padding: 0.25rem 0.7rem 0.25rem 0.9rem;
+  font-size: 1rem;
+  color: var(--primary-blue-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.hypo-chip button {
+  background: transparent;
+  color: #1e293b;
+  border: none;
+  font-size: 1.12em;
+  cursor: pointer;
+  margin-left: 0.3em;
+}
+
+.run-btn {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  background: var(--primary-blue);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.44rem 1.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.17s;
+}
+
+.run-btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.whatif-results {
+  margin-top: 1rem;
+}
+
+.whatif-results .loading {
+  color: var(--primary-blue);
+  font-weight: 500;
+}
+
+.whatif-results .error {
+  color: #b91c1c;
+}
+
+.whatif-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.whatif-results li {
+  margin-bottom: 1.2em;
+  background: #f1f5fd;
+  border-radius: 8px;
+  padding: 0.7em 1em;
+}
+
+.whatif-results pre {
+  margin: 0.2em 0 0 0;
+  white-space: pre-wrap;
+  font-family: inherit;
+}
