@@ -1,0 +1,35 @@
+.upload-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px #2563eb18;
+  padding: 1.2rem 1rem;
+  text-align: center;
+}
+
+.upload-box h3 {
+  color: var(--primary-blue-dark);
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.upload-box input[type="file"] {
+  margin-bottom: 0.5rem;
+}
+
+.upload-status {
+  color: var(--primary-blue);
+  font-weight: 500;
+  margin-top: 0.4rem;
+}
+
+.upload-error {
+  color: #b91c1c;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.upload-info {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-top: 0.5rem;
+}
