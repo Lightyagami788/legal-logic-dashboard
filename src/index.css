@@ -6,12 +6,13 @@
   --content-bg: #ffffff;
   --text: #172554;
   --sidebar-bg: #e0e7ff;
+  --black: #000; /* Black */
 }
 
 body {
   margin: 0;
   font-family: 'Inter', system-ui, Arial, sans-serif;
-  background: var(--background);
+  background: var(--black);
   color: var(--text);
 }
 
