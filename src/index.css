@@ -2,7 +2,7 @@
   --primary-blue: #001f3f; /* Navy Blue */
   --primary-blue-dark: #001233; /* Darker Navy */
   --primary-blue-light: #274472; /* Lighter Navy */
-  --background: #f4f8fd;
+  --background: #001f3f; /* Navy Blue for whole body */
   --content-bg: #ffffff;
   --text: #172554;
   --sidebar-bg: #e0e7ff;
@@ -22,7 +22,7 @@ body {
 }
 
 .app-header {
-  background: var(--primary-blue);
+  background: #000; /* Changed to black */
   color: #fff;
   padding: 1.5rem 2rem;
   text-align: center;
