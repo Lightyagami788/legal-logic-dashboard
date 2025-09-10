@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Dashboard from "./components/Dashboard";
-import "./App.css";
+import "./app.css";
 
 function App() {
   return (
