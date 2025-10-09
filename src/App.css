@@ -1,4 +1,4 @@
-/* Dark background for the whole app */
+/* General dark background for the app */
 .app-root {
   background: #111;
   min-height: 100vh;
@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-/* Header styles */
+/* Header styling */
 .app-header {
   text-align: center;
   margin-top: 40px;
@@ -15,7 +15,7 @@
 }
 
 .app-title {
-  font-size: 3rem;
+  font-size: 2.7rem;
   color: #6b6cff;
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -28,7 +28,7 @@
   font-weight: 400;
 }
 
-/* Main content center alignment */
+/* Center main content */
 .main-content {
   flex: 1;
   display: flex;
@@ -36,7 +36,7 @@
   justify-content: center;
 }
 
-/* Upload card styling */
+/* Card styling for upload section */
 .upload-card {
   background: #1c1c1c;
   border-radius: 16px;
