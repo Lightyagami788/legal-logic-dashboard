@@ -16,4 +16,11 @@ The Legal Logic Dashboard is built with the following technologies:
 - **Testing and Quality Assurance:** Jest, Playwright
 - **Deployment and CI/CD:** Railway,Netlify
 
+## Deployment 
+IT can be either run Locally using 
+run npm dev command
+
+or deployed on any web hosting server like netlify etc..
+
 Feel free to contribute to this repository by forking it, opening issues, or submitting pull requests. Let's make legal data analysis more efficient and accessible!
+
